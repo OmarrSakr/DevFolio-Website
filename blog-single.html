@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog single</title>
+
+    <!-- ^Fonts CSS File -->
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <!-- ^BootStrap CSS File -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <!-- ^glightbox CSS File -->
+    <link rel="stylesheet" href="./glightbox/css/glightbox.min.css">
+    <!-- ^Main CSS File -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- ^Swiper CSS File -->
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    <!-- ^sweetalert CSS File -->
+    <link rel="stylesheet" href="./CSS/sweetalert2.min.css">
+    <!-- ^DarkMode CSS File -->
+    <link rel="stylesheet" href="./CSS/Dark-Mode.css">
+    <!-- ^Media CSS File -->
+    <link rel="stylesheet" href="./CSS/media.css">
+    <!-- ^portfolio CSS File -->
+    <link rel="stylesheet" href="./CSS/portfolio-details.css">
+    <!-- ^blog-single CSS File -->
+    <link rel="stylesheet" href="./CSS/blog-single.css">
+
+    <!-- Browser Icon -->
+    <link rel="shortcut icon" href="./Images/Bootstrap-icon.png">
+
+
+</head>
+
+<body>
+
+    <!--! Navbar blog-page -->
+    <nav class="navbar blog-details  navbar-expand-lg py-2  ">
+        <div class="container">
+            <a class="navbar-brand text-white fw-semibold fs-3 let-space" href="index.html#home">DevFolio</a>
+            <button class="navbar-toggler toggle_btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" id="menu-icon" style="color: #ffffff;"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center  ">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link  text-white fs-6 fw-bold home-link" aria-current="page"
+                            href="index.html#home">HOME</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-white fs-6 fw-bold about-link" href="index.html#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-white fs-6 fw-bold services-link"
+                            href="index.html#services">SERVICES</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link  text-white fs-6 fw-bold work-link" href="index.html#work">WORK</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active text-white fs-6 fw-bold blog-link" href="index.html#blog">BLOG</a>
+                    </li>
+                    <li class="nav-item dropdown fs-6 fw-bold mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="index.html#Drop-down" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">DROP DOWN</a>
+                        <ul class="dropdown-menu p-3">
+                            <li><a class="dropdown-item my-2 fw-semibold" href="#">Drop down 1</a></li>
+                            <li class="nav-item deepdropdown my-2 fw-semibold">
+                                <a class="nav-link dropdown-toggle dropdown-item my-2 fw-semibold" href="#"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">Deep Drop Down</a>
+                                <ul class="dropdown-menu p-3">
+                                    <li><a class="dropdown-item my-2 fw-semibold" href="#">Drop down 1</a></li>
+                                    <li><a class="dropdown-item my-2 fw-semibold" href="#">Drop down 2</a></li>
+                                    <li><a class="dropdown-item my-2 fw-semibold" href="#">Drop down 3</a></li>
+                                    <li><a class="dropdown-item my-2 fw-semibold" href="#">Drop down 4</a></li>
+                                    <li><a class="dropdown-item my-2 fw-semibold" href="#">Drop down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item my-2 fw-semibold" href="#">Drop down 2</a></li>
+                            <li><a class="dropdown-item my-2 fw-semibold" href="#">Drop down 3</a></li>
+                            <li><a class="dropdown-item my-2 fw-semibold" href="#">Drop down 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-white fs-6 fw-bold contact-link" href="index.html#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="icon-moon">
+            <label for="mode" class="light-mode" aria-live="polite">
+                <i class="fa-solid fa-sun"></i>
+                <span class="visually-hidden">Light Mode</span>
+            </label>
+            <label for="mode" class="dark-mode" aria-live="polite">
+                <i class="fa-solid fa-moon"></i>
+                <span class="visually-hidden">Dark Mode</span>
+            </label>
+            <input type="checkbox" id="mode" hidden aria-hidden>
+        </div>
+    </nav>
+    <!-- !content navbar -->
+    <div class="hero hero-single route ">
+        <div class="overlay-mf">
+            <div class="hero-content display-table">
+                <div class="table-cell ">
+                    <div class="container">
+                        <h2 class="hero-title mb-4">Blog Details</h2>
+                        <ol class="breadcrumb d-flex justify-content-center">
+                            <li class="breadcrumb-item">
+                                <a href="index.html#home">Home</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="index.html#home">Library
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item active">Data</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- !content Blog Details -->
+    <section class="blog-wrapper sect-pt4" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="post-box">
+                        <div class="post-thumb">
+                            <img src="./Images/post-1.jpg" class="img-fluid"
+                                alt="Two people sitting in a park in front of a landscape">
+                        </div>
+                        <div class="post-meta">
+                            <h1 class="article-title">Lorem ipsum dolor sit amet consec tetur adipisicing</h1>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-user"></i>
+                                    <a href="#">Jason London</a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-tag"></i>
+                                    <a href="#">Web Design</a>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-message"></i>
+                                    <a href="#">14</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="article-content">
+                            <p>
+                                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed
+                                magna dictum
+                                porta. Quisque velit
+                                nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a
+                                pellentesque
+                                nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                posuere
+                                cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet
+                                ligula.
+                                Nulla quis lorem ut libero malesuada feugiat.
+                            </p>
+                            <p>
+                                Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris
+                                blandit
+                                aliquet elit, eget tincidunt
+                                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit
+                                amet,
+                                consectetur adipiscing elit. Donec sollicitudin molestie malesuada.
+                            </p>
+                            <p>
+                                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet,
+                                consectetur
+                                adipiscing elit. Praesent
+                                sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit
+                                amet,
+                                consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+                                sem. Donec rutrum congue leo eget malesuada.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero
+                                malesuada feugiat.
+                                Curabitur arcu erat,
+                                accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor
+                                volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi,
+                                pretium
+                                ut lacinia in, elementum id enim.
+                            </p>
+                            <blockquote class="blockquote">
+                                <p class=" mb-0 blocktext">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Integer posuere
+                                    erat a ante.</p>
+                            </blockquote>
+                            <p>
+                                Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris
+                                blandit
+                                aliquet elit, eget tincidunt
+                                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit
+                                amet,
+                                consectetur adipiscing elit. Donec sollicitudin molestie malesuada.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box-comments ">
+                        <div class="title-box-2">
+                            <h4 class="title-comments title-left">Comments (34)</h4>
+                        </div>
+                        <ul class="list-comments row">
+                            <li>
+                                <div class="comment-avatar col-lg-1 col-md-2 col-sm-2">
+                                    <img src="./Images/Blog-single-1.jpg" alt="Bald man with beard in suit with smile">
+                                </div>
+                                <div class="comment-details col-lg-11 col-md-10 col-sm-10">
+                                    <h4 class="comment-author">Oliver Colmenares</h4>
+                                    <span>26 May 2024</span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit,
+                                        provident cumque
+                                        ipsam temporibus maiores
+                                        quae natus libero optio, at qui beatae .
+                                    </p>
+                                    <a href="3">Reply</a>
+                                </div>
+                            </li>
+                            <li class="comment-children">
+                                <div class="comment-avatar col-lg-1 col-md-2 col-sm-2">
+                                    <img src="./Images/Blog-single-2.jpg"
+                                        alt="Picture of a 25 year old girl with a slight smile on her face and a beautiful haircut">
+                                </div>
+                                <div class="comment-details col-lg-11 col-md-10 col-sml-10">
+                                    <h4 class="comment-author">Mary Daniel</h4>
+                                    <span>16 Nav 2023</span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit,
+                                        provident cumque
+                                        ipsam temporibus maiores
+                                        quae natus libero optio, at qui beatae ducimus placeat debitis voluptates amet
+                                        corporis,
+                                        veritatis deserunt.
+                                    </p>
+                                    <a href="3">Reply</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="comment-avatar col-lg-1 col-md-2 col-sm-2">
+                                    <img src="./Images/Blog-single-3.jpg"
+                                        alt="A boy sitting in a white shirt and a slight smile on his face">
+                                </div>
+                                <div class="comment-details col-lg-11 col-md-10 col-sm-10">
+                                    <h4 class="comment-author">John David</h4>
+                                    <span>9 Jul 2022</span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit,
+                                        provident cumque
+                                        ipsam temporibus maiores
+                                        quae.
+                                    </p>
+                                    <a href="3">Reply</a>
+                                </div>
+                            </li>
+                            <li class="comment-children">
+                                <div class="comment-avatar col-lg-1 col-md-2 col-sm-2">
+                                    <img src="./Images/Blog-single-4.jpg"
+                                        alt="Image of a girl in her 30s with a white background wearing a women's suit and glasses">
+                                </div>
+                                <div class="comment-details col-lg-11 col-md-10 col-sm-10">
+                                    <h4 class="comment-author">Olivia William</h4>
+                                    <span>23 Mar 2022</span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit,
+                                        provident cumque
+                                        ipsam temporibus maiores
+                                        quae natus libero optio.
+                                    </p>
+                                    <a href="3">Reply</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="form-comments">
+                        <div class="title-box-2">
+                            <h3 class="title-left">
+                                Leave a Reply
+                            </h3>
+                        </div>
+                        <form class="form-mf">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control input-mf" id="inputName"
+                                            placeholder="Name *" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control input-mf" id="inputEmail1"
+                                            placeholder="Email *" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="form-group">
+                                        <input type="url" class="form-control input-mf" id="inputUrl"
+                                            placeholder="Website">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="form-group">
+                                        <textarea id="textMessage" class="form-control  input-mf"
+                                            placeholder="Comment *" name="message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="button button-a size-button button-radius">Send
+                                        Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="widget-sidebar sidebar-search">
+                        <h5 class="sidebar-title">Search</h5>
+                        <div class="sidebar-content">
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for..."
+                                        aria-label="Search for...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-secondary btn-search" type="button">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="widget-sidebar">
+                        <h5 class="sidebar-title">Recent Post</h5>
+                        <div class="sidebar-content">
+                            <ul class="list-sidebar">
+                                <li>
+                                    <a href="#">Atque placeat maiores.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lorem ipsum dolor sit amet consectetur</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nam quo autem exercitationem.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Atque placeat maiores nam quo autem</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nam quo autem exercitationem.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget-sidebar">
+                        <h5 class="sidebar-title">Archives</h5>
+                        <div class="sidebar-content">
+                            <ul class="list-sidebar">
+                                <li>
+                                    <a href="#">September, 2017.</a>
+                                </li>
+                                <li>
+                                    <a href="#">April, 2017.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nam quo autem exercitationem.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Atque placeat maiores nam quo autem</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nam quo autem exercitationem.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget-sidebar widget-tags">
+                        <h5 class="sidebar-title">Tags</h5>
+                        <div class="sidebar-content">
+                            <ul>
+                                <li>
+                                    <a href="#">Web.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Design.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Travel.</a>
+                                </li>
+                                <li>
+                                    <a href="#">Photoshop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Corel Draw</a>
+                                </li>
+                                <li>
+                                    <a href="#">JavaScript</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- !footer Blog-Details-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">© Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+                        <div class="credits">
+                            Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- !####### End footer section -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i
+            class="fa-solid fa-arrow-up"></i></a>
+
+
+
+
+
+
+
+    <script src="./Js/jquery-3.6.3.min.js"></script>
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+    <script src="./Js/jquery.waypoints.min.js"></script>
+    <script src="./waypoints/noframework.waypoints.js"></script>
+    <script src="./Js/jquery.counterup.min.js"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script src="./glightbox/js/glightbox.min.js"></script>
+    <script src="./Js/sweetalert2.min.js"></script>
+    <script src="./Js/navbar-toggle-icon.js"></script>
+
+
+    <!--* Main JS File -->
+    <script src="./Js/index.js"></script>
+
+    <!--*for convert menu bar when you click on it to cancel icon  -->
+    <script src="./Js/navbar-toggle-icon.js"></script>
+
+    <!-- *for dark mode open in any HTML pages and execute the same orders -->
+    <script src="./Js/darkmode-theme-toggle.js"></script>
+
+    <!-- !you must fill all form in (Contact Section) -->
+    <script src="./Js/fill-form-contact-section.js"></script>
+
+
+
+</body>
+
+</html>

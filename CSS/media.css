@@ -1,0 +1,194 @@
+/* Breakpoint for screens larger than 576px */
+@media screen and (max-width: 605px) {
+    body {
+        width: 100%;
+
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* ^ about section  */
+    .about .part-two h5 {
+        margin-top: 25px;
+    }
+
+}
+
+/* Breakpoint for screens larger than 768px */
+@media screen and (min-width: 768px) {
+
+    .header .container h1 {
+        font-size: 4.5rem;
+        font-weight: 600;
+    }
+
+    .header .container p span {
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+
+    .card-footer {
+        height: 4.5rem;
+    }
+
+    .card-blog .post-date {
+        position: absolute;
+        right: .9375rem;
+        bottom: .3125rem;
+    }
+}
+
+/* Breakpoint for screens larger than 992px */
+@media screen and (min-width: 992px) {
+
+    .navbar-nav {
+        color: #4E4E4E;
+    }
+
+    .navbar .nav-link {
+        padding: 10px 20px;
+        color: #FFF;
+    }
+
+    .navbar-brand {
+        color: #FFF;
+    }
+
+    .card-footer {
+        height: 2.875rem;
+    }
+
+    .card-blog .post-date {
+        display: flex;
+        float: right;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: .5rem;
+    }
+
+    .portfolio-details .swiper-button-next,
+    .portfolio-details .swiper-button-prev {
+        position: absolute;
+        top: 30%;
+    }
+}
+
+/* Breakpoint for screens smaller than or equal to 992px */
+@media screen and (max-width: 992px) {
+
+    .dropdown_menu {
+        display: none;
+    }
+
+    .dropdown_menu.show {
+        display: block;
+    }
+
+    .navbar-nav {
+        padding: 20px 0px;
+        background-color: rgba(255, 255, 255, 0.7);
+        height: 50vh;
+    }
+
+    .navbar .nav-link {
+        margin: 10px 0px;
+        color: #4E4E4E !important;
+    }
+
+    .navbar-brand {
+        color: #FFF;
+    }
+
+    .navbar-nav .collapse ul li a {
+        display: block;
+        position: absolute;
+        top: 55px;
+        right: 15px;
+        bottom: 15px;
+        left: 15px;
+        padding: 10px 0;
+        background-color: #fff;
+        overflow-y: auto;
+        transition: 0.3s;
+    }
+
+    .nav-link:hover::before {
+        width: 0%;
+    }
+
+    .deepdropdown:hover>.dropdown-menu {
+        position: absolute;
+        left: 25%;
+        top: 26%;
+    }
+
+    .dropdown:hover>.dropdown-menu,
+    .deepdropdown:hover>.dropdown-menu {
+        display: none;
+    }
+
+    .dropdown:focus>.dropdown-menu,
+    .deepdropdown:focus>.dropdown-menu {
+        display: block;
+    }
+
+    .portfolio-details .swiper-button-next {
+        position: absolute;
+        top: 46.5%;
+    }
+
+    .portfolio-details .swiper-button-prev {
+        position: absolute;
+        top: 45%;
+    }
+
+
+
+    #menu-icon {
+        position: absolute;
+        right: 25px;
+        top: 19px;
+    }
+
+    .icon-moon,
+    .icon-sun {
+        position: fixed;
+        right: 0%;
+    }
+
+    .navbar .icon-moon .fa-moon,
+    .navbar .icon-moon .fa-sun {
+        position: fixed;
+        right: 70px;
+        top: 18.5px;
+    }
+}
+
+/* Breakpoint for screens smaller than or equal to 1024px */
+@media screen and (max-width: 1024px) {
+
+    .header,
+    .blue-section,
+    .testimonials-section,
+    .paralax-mf {
+        background-attachment: scroll;
+    }
+}
+
+/* Breakpoint for screens larger than 1200px */
+@media screen and (min-width: 1200px) {
+
+    .portfolio-details .swiper-button-next,
+    .portfolio-details .swiper-button-prev {
+        position: absolute;
+        top: 45%;
+    }
+
+    body {
+        margin: 0px;
+        overflow-x: hidden;
+    }
+}
