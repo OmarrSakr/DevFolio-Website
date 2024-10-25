@@ -98,7 +98,7 @@ We welcome `contributions` to **DevFolio**! Here’s how you can help:
 2. **Clone your fork** - Use the command:
    
    ```bash
-   git clone https://github.com/your-username/DevFolio-Website.git
+   git clone https://github.com/OmarrSakr/DevFolio-Website.git
 
 ---
 
