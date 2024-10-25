@@ -3,7 +3,7 @@
 ![DevFolio](https://github.com/user-attachments/assets/6f77dee3-b4ae-4a80-a1d4-49ec03d3517d)
 
 
-DevFolio is a responsive and interactive portfolio website, showcasing professional projects,
+`DevFolio` is a responsive and interactive portfolio website, showcasing professional projects,
 creative skills, and personal achievements. It focuses on providing a smooth user experience with
 features like dark mode, an animated testimonials section, and seamless navigation between sections.
 
