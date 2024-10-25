@@ -1,6 +1,6 @@
 # DevFolio 💼
 
-![DevFolio](https://github.com/user-attachments/assets/c8242686-c832-40ef-a400-3993346f4a58)
+![DevFolio](https://github.com/user-attachments/assets/6f77dee3-b4ae-4a80-a1d4-49ec03d3517d)
 
 
 DevFolio is a responsive and interactive portfolio website, showcasing professional projects,
