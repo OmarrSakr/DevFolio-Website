@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function () {
             delay: 3500,
             disableOnInteraction: false,
         },
-        speed: 1000,
+        speed: 3000,
         spaceBetween: 30,
         effect: 'slide',
         navigation: {
