@@ -10,7 +10,7 @@ features like `dark mode`, an animated testimonials section, and seamless naviga
 ---
 
 ## Live Demo 🌐
-- Check out the live demo of the project at [DevFolio Website](https://omarrsakr.github.io/DevFolio-Website/).
+- Check out the live demo of the project at [`DevFolio Website`](https://omarrsakr.github.io/DevFolio-Website/).
 
 ---
 
