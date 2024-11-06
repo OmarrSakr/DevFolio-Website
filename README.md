@@ -3,14 +3,14 @@
 ![DevFolio](https://github.com/user-attachments/assets/6f77dee3-b4ae-4a80-a1d4-49ec03d3517d)
 
 
-`DevFolio` is a responsive and interactive portfolio website, showcasing professional projects,
+DevFolio is a responsive and interactive portfolio website, showcasing professional projects,
 creative skills, and personal achievements. It focuses on providing a smooth user experience with
 features like dark mode, an animated testimonials section, and seamless navigation between sections.
 
 ---
 
 ## Live Demo 🌐
-- Check out the live demo of the project at [`DevFolio Website`](https://omarrsakr.github.io/DevFolio-Website/).
+- Check out the live demo of the project at [DevFolio Website](https://omarrsakr.github.io/DevFolio-Website/).
 
 ---
 
@@ -93,17 +93,17 @@ Integrated in the contact section to show the user’s location.
 
 ## How to Use 🚀  
 
-We welcome `contributions` to **DevFolio**! Here’s how you can help:
-1. **Fork the repository** - Click the "Fork" button at the top right of the repository page.
-2. **Clone your fork** - Use the command:
+We welcome contributions to *DevFolio*! Here’s how you can help:
+1. *Fork the repository* - Click the "Fork" button at the top right of the repository page.
+2. *Clone your fork* - Use the command:
    
-   ```bash
+   bash
    git clone https://github.com/OmarrSakr/DevFolio-Website.git
 
 ---
 
 ## 📂 Project Structure 
-```
+
 DevFolio/
 │
 ├── 📂 CSS/
@@ -156,7 +156,7 @@ DevFolio/
 
 ### Important Notes 📢
 
-- This project is a `static website` and does not include a backend or dynamic content.
+- This project is a static website and does not include a backend or dynamic content.
 - Contributions are welcome to enhance the website’s interactivity and design!
 
 ---
