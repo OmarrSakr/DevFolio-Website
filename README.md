@@ -1,11 +1,11 @@
 # DevFolio 💼
 
-![DevFolio](https://github.com/user-attachments/assets/6f77dee3-b4ae-4a80-a1d4-49ec03d3517d)
+![DevFolio](https://github.com/user-attachments/assets/a3ab1eb2-1d3c-493f-9d0f-62493d64a2ca)
 
 
-DevFolio is a responsive and interactive portfolio website, showcasing professional projects,
+`DevFolio` is a **responsive** and interactive portfolio website, showcasing professional projects,
 creative skills, and personal achievements. It focuses on providing a smooth user experience with
-features like dark mode, an animated testimonials section, and seamless navigation between sections.
+features like `dark mode`, an animated testimonials section, and seamless navigation between sections.
 
 ---
 
@@ -65,28 +65,28 @@ features like dark mode, an animated testimonials section, and seamless navigati
 ## 🧑‍💻 Languages and Technologies Used
 
 <code>HTML5:</code>
-Structured the web content with semantic tags.
+- Structured the web content with semantic tags.
 
 <code>CSS3:</code>
-Custom styles for each section, including media queries for responsiveness.
-Separate stylesheets for dark mode (darkmode.css), general styling (general.css), and media queries (media.css).
+- Custom styles for each section, including media queries for responsiveness.
+- Separate stylesheets for dark mode (darkmode.css), general styling (general.css), and media queries (media.css).
 
 <code>JavaScript:</code>
-Handles the navbar toggle and menu transition.
-Implements dark mode functionality and counter animations on scroll.
-Controls Swiper.js configuration for testimonials and portfolio sliders.
+- Handles the navbar toggle and menu transition.
+- Implements dark mode functionality and counter animations on scroll.
+- Controls Swiper.js configuration for testimonials and portfolio sliders.
 
 <code>Font Awesome:</code>
-Provides icons for navigation, services, and dark mode toggle.
+- Provides icons for navigation, services, and dark mode toggle.
 
 <code>Google Fonts:</code>
-Fonts used: Poppins, Roboto, and Inter for enhanced typography.
+- Fonts used: Poppins, Roboto, and Inter for enhanced typography.
 
 <code>SweetAlert2:</code>
-Displays alerts for form submissions and user actions.
+- Displays alerts for form submissions and user actions.
 
 <code>Google Maps API:</code>
-Integrated in the contact section to show the user’s location.
+- Integrated in the contact section to show the user’s location.
 
 
 ---
@@ -97,13 +97,14 @@ We welcome contributions to *DevFolio*! Here’s how you can help:
 1. *Fork the repository* - Click the "Fork" button at the top right of the repository page.
 2. *Clone your fork* - Use the command:
    
-   bash
+   ```bash
    git clone https://github.com/OmarrSakr/DevFolio-Website.git
 
 ---
 
 ## 📂 Project Structure 
 
+```
 DevFolio/
 │
 ├── 📂 CSS/
